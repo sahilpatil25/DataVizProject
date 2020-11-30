@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>VAST 2019 MC3</title>
+    <link rel='stylesheet' href='styles/styles.css'>
+    <script src='https://d3js.org/d3.v5.min.js'></script>
+    <script src='scripts/hirarchyMap.js'></script>
+    <script src='scripts/chloroplethMap.js'></script>
+    <script src='scripts/donutChart.js'></script>
+    <script src='scripts/2dmtrix.js'></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+    <script src='scripts/TimeLine.js'></script> 
+    <script>function changeColor() {drawMap(); drawCirclePack(); drawLineChart("All");}</script>
+
+  </head>
+  <body>
+    <div id='wrapper'>
+      <div id = "Info"><h2>VAST 2019 MC3 : Voice from the People </h2>
+      <h3>Social media message analysis of St. Himark's neighborhoods and people</h3>
+      <h4>CSE 578: Data visualization project</h4>
+      <h5>Sahil | Omkar | Rinku | Aditya | Saloni | Yen-Tsu</h5> 
+      </div>
+      <!-- <hr style='width:100%'> -->
+      &nbsp;&nbsp;&nbsp;&nbsp; <b>Color Scale</b>
+      <select id='color-scale-select' onchange="changeColor()">
+        <option value='red' selected="true">Red</option>
+        <option value='blue'>Blue</option>
+        <option value='green'>Green</option>
+      </select>
+      <br>
+      <svg id="my_dataviz" width="500" height="600" ></svg>
+      <svg id='circlePack'></svg>
+      <svg id='linechart' ></svg>
+      <svg id="donutChart"></svg>
+      <div id="matwrapper">
+        <h3 style="text-align:center">User sentiments</h3>
+        <label for="sentiment" style="padding-left: 20px"><b>Emotion:</b></label>
+                    <select name="sentiment" id="sentiment" >
+                    <option value="All">All</option>
+                    <option value="Positive">Positive</option>
+                    <option value="Negative">Negative</option>
+                    <option value="Neutral">Neutral</option>
+        </select>
+        <!-----------------NEW CODE FOR ALPHABETICAL FILTERING------------------>
+        <label for="username_range" style="padding-left: 20px"><b>Filter by Username:</b></label>
+                    <select name="username_range" id="username_range" >
+                    <option value="All">All Users</option>
+                    <option value="AE">A-E</option>
+                    <option value="FJ">F-J</option>
+                    <option value="KO">K-O</option>
+                    <option value="PT">P-T</option>
+                    <option value="UZ">U-Z</option>            
+        </select>
+        <!--------------NEW CODE FOR ALPHABETICAL FILTERING--------------------->        
+        <div id="matrixsvg">
+        </div>
+      </div>
+      <svg id="timeline"></svg>
+      <br>
+      <br>
+    </div>
+  </body>
+</html>

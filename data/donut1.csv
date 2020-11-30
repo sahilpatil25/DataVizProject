@@ -1,0 +1,13 @@
+category,messages,priority
+Earthquake,475,8
+Ground,170,4
+Flood,178,5
+Aftershock,66,2
+Fire,434,7
+Water,1179,12
+Energy,381,6
+Medical,42,1
+Shelter,983,10
+Transportation,70,3
+Food,1008,11
+Rumble,503,9

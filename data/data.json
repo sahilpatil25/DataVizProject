@@ -1,0 +1,59 @@
+{
+    "name": "All",
+    "children": [
+      {
+        "name": "Events",
+        "children": [
+          {
+            "name": "Earthquake", "size": 475
+          },
+          {
+            "name": "Ground", "size": 170
+          },
+          {
+            "name": "Flood", "size": 178
+          },
+          {
+            "name": "Aftershock", "size": 66
+          },
+          {
+            "name": "Fire", "size": 434
+          }
+        ]
+      },
+      {
+        "name": "Resource",
+        "children": [
+          {
+            "name": "Water", "size": 1179
+          },
+          {
+            "name": "Energy", "size": 381
+          },
+          {
+            "name": "Medical", "size": 42
+          },
+          {
+            "name": "Shelter", "size": 983
+          },
+          {
+            "name": "Transportation", "size": 70
+          },
+          {
+            "name": "Food", "size": 1008
+          }
+        ]
+      },
+      {
+        "name": "Other",
+        "children": [
+          {
+            "name": "Rumble", "size": 503
+          },
+          {
+            "name": "Miscellaneous", "size": 2500
+          }
+        ]
+      }
+    ]
+  }

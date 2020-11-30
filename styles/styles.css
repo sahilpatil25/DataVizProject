@@ -1,0 +1,181 @@
+#wrapper {
+  margin:0;
+}
+body{
+  background:#FFFAFA;
+}
+input {
+  width:50px;
+}
+#my_dataviz{
+  border:1px solid gray;
+  border-radius:10px;
+  margin:5px;
+  margin-left:20px;
+}
+#color-scale-select{
+  margin: 5px;
+}
+
+#timeline{
+  border:1px solid gray;
+  border-radius:10px;
+  margin:5px;
+  margin-left:20px;
+}
+
+#circlePack, #linechart {
+  border:1px solid gray;
+  border-radius:10px;
+  height:37.5rem;
+  width:37.5rem;
+  margin:5px;
+}
+
+#linechart {
+  width:43.75rem;
+}
+
+.countrymap {
+  stroke: black;
+}
+
+
+h2, h3, h4, h5 {
+  text-align:center;
+}
+
+.x-axis line, .x-axis path { stroke: #fff; }
+
+div.tooltip {	
+  position: absolute;			
+  text-align: left;			
+  width: 130px;					
+  height: 50px;					
+  padding: 10px;				
+  font: 13px sans-serif;
+  font-weight: 700;		
+  background: white;	
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;	
+  border-color: gray;		
+  pointer-events: none;
+  line-height: 20px;			
+}
+
+div.tooltip2 {
+  position: absolute;			
+  text-align: left;			
+  width: 130px;					
+  height: 50px;					
+  padding: 10px;				
+  font: 13px sans-serif;
+  font-weight: 700;		
+  background: white;	
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;	
+  border-color: gray;		
+  pointer-events: none;
+  line-height: 20px;			
+}
+
+text.axis {
+  text-anchor: middle;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: gray;
+  fill: currentColor;
+}
+
+.node {
+  cursor: pointer;
+}
+
+.node:hover {
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+.node--leaf {
+  fill: white;
+}
+
+.label {
+  font: 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  text-anchor: middle;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+}
+
+.label,
+.node--root{
+  pointer-events: none;
+}
+
+#donutChart {
+	/* margin-left: auto;
+    margin-right: auto; */
+    /*display: block;*/
+    border:1px solid gray;
+    border-radius:10px;
+    margin:5px;
+    margin-left:20px;
+}
+
+.arc text {
+  font: 10px sans-serif;
+  text-anchor: middle;
+}
+
+.arc path {
+  stroke: #fff;
+}
+
+#matwrapper {
+  display: inline flow-root list-item;
+  /*margin:20px;*/
+  border:1px solid gray;
+  border-radius:10px;
+  width:1220px; 
+}
+input {
+  width:50px;
+}
+#matrixsvg {
+  height: 515px;
+  width:1200px;
+  margin:5px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+
+html {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.ChartTitle {
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#chartTitle {
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.region {
+  font-style: italic;
+}
+
+#Info {
+  border-style: groove;
+  width: 50%;
+  margin: auto;
+  border-radius: 15px;
+}
